@@ -1,6 +1,6 @@
-package xyz.sarva.distributedcache.cache
+package xyz.sarva.cache.cache
 
-import xyz.sarva.distributedcache.cache.eviction.EvictionPolicy
+import xyz.sarva.cache.cache.eviction.EvictionPolicy
 
 class InMemoryCache(
     private val maxSize: Int,

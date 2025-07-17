@@ -1,4 +1,4 @@
-package xyz.sarva.distributedcache.cache.eviction
+package xyz.sarva.cache.cache.eviction
 
 interface EvictionPolicy<KEY> {
     fun onAccess(key: KEY);

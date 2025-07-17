@@ -1,4 +1,4 @@
-package xyz.sarva.distributedcache.cache
+package xyz.sarva.cache.cache
 
 data class CacheEntry (
     val key: String,

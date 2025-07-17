@@ -1,10 +1,10 @@
-package xyz.sarva.distributedcache
+package xyz.sarva.cache
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class DistributedCacheApplicationTests {
+class CacheApplicationTests {
 
     @Test
     fun contextLoads() {

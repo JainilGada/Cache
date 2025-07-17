@@ -1,4 +1,4 @@
-package xyz.sarva.distributedcache.cache
+package xyz.sarva.cache.cache
 
 interface Cache {
     fun put(key: String, value: ByteArray, ttlMillis: Long)

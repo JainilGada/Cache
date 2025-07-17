@@ -1,4 +1,4 @@
-package xyz.sarva.distributedcache
+package xyz.sarva.cache
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

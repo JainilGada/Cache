@@ -1,10 +1,9 @@
-package xyz.sarva.distributedcache.cache
+package xyz.sarva.cache.cache
 
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import xyz.sarva.distributedcache.cache.eviction.LRUEvictionPolicy
-import java.util.concurrent.TimeUnit
+import xyz.sarva.cache.cache.eviction.LRUEvictionPolicy
 import kotlin.test.Ignore
 
 class InMemoryCacheTest {
